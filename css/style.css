@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    
+    gap: 5vw;
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    padding-right: 150px;
+    
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.head .para{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.navbar{
+    display: block;
+    max-width: 100%;
+    font-size: 13px;
+}
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+nav ul li{
+    justify-content: space-between;
+    padding: 0 3vw;
+    color: #000;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color: blue;
+    border-radius: 10px;
+    color: #fff;
+}
+.home{
+    color: rgb(241, 175, 6);
+}
+.font{
+    margin-left:00px;
+}
+.hero-container{
+ min-height: 95vh;
+ max-width: 100%;
+ background-color: #202020;   
+}
+.hero-section{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    
+    gap: 0px;
+   
+}
+.hero-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+    margin-left: 60px;
+    padding-top: 80px;
+    display: grid;
+}
+img.image1{
+ display: block;
+min-height: 100vh;
+width: 97%;
+
+   
+}
+.hero-font .para2{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.button-container{
+    top: 0;
+    gap: 40px;
+}
+button{
+    min-height: 40px;
+    min-width: 40%;
+    grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
+    background-color: #000;
+    border: 1px solid #f9f9f9;
+    color: #fff;
+}
+section{
+    min-height: 40vh;
+    width: 100%;
+    background-color: gold;
+}
+.section-items{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); 
+  padding-top: 50px;
+  margin-left: 50px;
+  
+
+}
+img.image2{
+   max-height: 100px;
+   max-width: 40%;
+   border: 5px solid #fff;
+   border-radius: 100%;
+}
+.para3{
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
